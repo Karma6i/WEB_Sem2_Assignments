@@ -10,3 +10,5 @@ const building = {
   Building = building.wholeBuilding();
   System.out.println(building);
   //alert(wholeBuilding);
+
+  // don't need to print..? idk LOL
