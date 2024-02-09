@@ -1,2 +1,1 @@
-Add 3 more functions to your calculator that arent simple +, -, *, /
-(absolute value, specific functions, explore math library)
+Add 3 more functions to your calculator that aren't simple +, -, *, /
