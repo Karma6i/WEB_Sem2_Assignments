@@ -46,7 +46,9 @@
                 <canvas id="myCanvas1" , width="200" height="200" style="border:1px solid #000000;">
             </div>
         </div>
+
         <hr>
+
         <div id="block2">
             <div id="controls2">
                 <label for="startX">Starting X </label><br>
@@ -73,10 +75,28 @@
                 <canvas id="myCanvas2" , width="200" height="200" style="border:1px solid #000000;">
             </div>
         </div>
+
         <hr>
+
+                
         <div id="block3">
             <div id="controls3">
-                
+            <label for="fontSize">Size of Font: </label><br>
+                <input type="number" id="startAngle" name="startAngle">
+                <br>
+
+                <label for="endAngle">End Angle in Degrees: </label><br>
+                <input type="number" id="endAngle" name="endAngle">
+                <br>
+
+                <label for="centerX">CenterX: </label><br>
+                <input type="number" id="centerX" name="centerX">
+                <br>
+
+                <br>
+                <button type="button" onclick="writeText()">Write Text</button>
+                <br>
+                <br>
             </div>
             <div id="canvas3">
                 <canvas id="myCanvas3" , width="200" height="200" style="border:1px solid #000000;">

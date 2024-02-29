@@ -45,3 +45,20 @@ function drawLine() {
     // Stroke it (Do the Drawing)
     ctx.stroke();
 }
+
+function writeText() {
+    let fontSize = +document.getElementById("fontSize").value;
+    let text = +document.getElementById("text").value;
+    let textHeight = +document.getElementById("textHeight").value;
+    let textWidth = +document.getElementById("textWidth").value;
+
+    const canvas = document.getElementById("myCanvas2");
+    const ctx = canvas.getContext("2d");
+
+    // Define a new Path:
+    ctx.font(fontSize, Arial);
+
+    // Define a start Point
+    ctx.strokeText("text", 15, 45);
+}
+
