@@ -9,7 +9,7 @@ for(let i = 0; i < 10; i++){
 document.getElementById("unsorted").innerHTML = numbers;
 
 
-
+//sorted
 const numbers1 = []
 numbers1.sort();
 
