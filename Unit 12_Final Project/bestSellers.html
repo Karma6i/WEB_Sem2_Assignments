@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<style>
+    div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+</style>
+<body>
+
+    <a rel="mainNav.html" href="mainNav.html">Back to Main Page!</a>
+    <link rel="stylesheet" href="styles.css">
+
+    <h1>Elements and Types System</h1>
+
+    <h3>Elements and Their Effects</h3>
+    <table style="border:1px solid black">
+        <tr>
+            <th style="border:1px solid black">
+                Element Icon
+            </th>
+            <th style="border:1px solid black">
+                Element Name
+            </th>
+            <th style="border:1px solid black">
+                Their effect
+            </th>
+            <th style="border:1px solid black">
+                How Many Currently Have This Element
+            </th>
+            <th style="border:1px solid black">
+                Do I Use Thise Element Often?
+            </th>
+        </tr>
+
+        <tr>
+            <td style="border:1px solid black"><img src="https://ih1.redbubble.net/image.5022809331.4208/raf,360x360,075,t,fafafa:ca443f4786.jpg"
+                height="120"></td>
+            <td style="border:1px solid black">Fire</td>
+            <td style="border:1px solid black">Cause burn onto enemies as a DOT effect that damages <br>
+            enemies for a set amount of turns</td>
+            <td style="border:1px solid black">6</td>
+            <td style="border:1px solid black">No</td>
+        </tr>
+
+        <tr>
+            <td style="border:1px solid black"><img src="data:image/jpeg;base64,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"
+                height="120"></td>
+            <td style="border:1px solid black">Quantum</td>
+            <td style="border:1px solid black">Causes entanglement, delaying the enemies <br>action and dealing additional Quantum damage to the 
+            affected <br>enemy at the start of next turn</td>
+            <td style="border:1px solid black">4</td>
+            <td style="border:1px solid black">No</td>
+        </tr>
+
+        <tr>
+            <td style="border:1px solid black"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGizIZ5995KKJsyHG9DhgZpxbEwHIsX8xNCUDH_z4TgDFG-Km2msLPFWp4p8juLJ5t7Q0&usqp=CAU"
+                height="120"></td>
+            <td style="border:1px solid black">Imaginary</td>
+            <td style="border:1px solid black">Imprisons enemies and delays their turns</td>
+            <td style="border:1px solid black">5</td>
+            <td style="border:1px solid black">Yes</td>
+        </tr>
+
+        
+        <tr>
+            <td style="border:1px solid black"><img src="data:image/jpeg;base64,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"
+                height="120"></td>
+            <td style="border:1px solid black">Physical</td>
+            <td style="border:1px solid black">Applies a bleed DOT effect that damages enemies <br> for a set amount of turns</td>
+            <td style="border:1px solid black">7</td>
+            <td style="border:1px solid black">No</td>
+        </tr>
+
+        <tr>
+            <td style="border:1px solid black"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREuEJ9bXS6Mpl39i0dzdPpFqWhwCPhybuv8XNb6VbFiOuRv-n9nE17VAGL8G3QlixPkSo&usqp=CAU"
+                height="120"></td>
+            <td style="border:1px solid black">Ice</td>
+            <td style="border:1px solid black">Freezes enemies and prevents them from taking action, essentially <br> 
+            skipping their next turn</td>
+            <td style="border:1px solid black">7</td>
+            <td style="border:1px solid black">Yes</td>
+        </tr>
+
+        <tr>
+            <td style="border:1px solid black"><img src="data:image/jpeg;base64,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"
+                height="120"></td>
+            <td style="border:1px solid black">Lightning</td>
+            <td style="border:1px solid black">Applies a shock DOT that damages enemies for a set amount of turns</td>
+            <td style="border:1px solid black">6</td>
+            <td style="border:1px solid black">No</td>
+        </tr>
+
+        <tr>
+            <td style="border:1px solid black"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3t1qrQzIBWcoyQXwu8UsJ-xzY_LmJdQ8vNA&usqp=CAU"
+                height="120"></td>
+            <td style="border:1px solid black">Wind</td>
+            <td style="border:1px solid black">Applies a Wind Shear DOT effect that applies different amounts of <br>stacks on the enemies 
+            depending on their <br>level of strength, and of course damages them over time</td>
+            <td style="border:1px solid black">7</td>
+            <td style="border:1px solid black">Yes</td>
+        </tr>
+
+    </table>
+
+
+    <h3>Paths/Roles and Their Uses</h3>
+    <table style="border:1px solid black">
+        <tr>
+            <th style="border:1px solid black">
+                Role Icon
+            </th>
+            <th style="border:1px solid black">
+                Role Name
+            </th>
+            <th style="border:1px solid black">
+                What They Do
+            </th>
+            <th style="border:1px solid black">
+                How Mant Currently Have This Role
+            </th>
+            <th style="border:1px solid black">
+                Do I Use Thise Role Often?
+            </th>
+        </tr>
+
+        <tr>
+            <td style="border:1px solid black"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6TEFoCdSotji0VBq-WHQRmqy8pE8UjGtQ8ly4NlsKh2_xKb6B7OreeDmiaMXRqxkLuTc&usqp=CAU"
+                height="120"></td>
+            <td style="border:1px solid black">Hunt</td>
+            <td style="border:1px solid black">Single target high, focused damage</td>
+            <td style="border:1px solid black">5</td>
+            <td style="border:1px solid black">Yes</td>
+        </tr>
+
+        <tr>
+            <td style="border:1px solid black"><img src="https://static.wikia.nocookie.net/houkai-star-rail/images/5/53/Path_Erudition.png"
+                height="120"></td>
+            <td style="border:1px solid black">Erudition</td>
+            <td style="border:1px solid black">Specialize in AOE, clearing out mobs of enemies</td>
+            <td style="border:1px solid black">8</td>
+            <td style="border:1px solid black">No</td>
+        </tr>
+
+        <tr>
+            <td style="border:1px solid black"><img src="https://upload-os-bbs.hoyolab.com/upload/2022/05/29/1024375/d226bef9a03677d8c48534c2ed170868_3486615931687715762.png?x-oss-process=image%2Fresize%2Cs_1000%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp%2Fquality%2Cq_80"
+                height="120"></td>
+            <td style="border:1px solid black">Nihility</td>
+            <td style="border:1px solid black">Debuff enemies</td>
+            <td style="border:1px solid black">7</td>
+            <td style="border:1px solid black">Yes</td>
+        </tr>
+
+        <tr>
+            <td style="border:1px solid black"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0sZvcN_1XToZwiVpK5-7-8o5uW3PnA5grkRrWXLfrmesbNoNNK2I4HXJG80SEZsoL7HA&usqp=CAU"
+                height="120"></td>
+            <td style="border:1px solid black">Abundance</td>
+            <td style="border:1px solid black">Large source of healing for the team</td>
+            <td style="border:1px solid black">5</td>
+            <td style="border:1px solid black">Yes</td>
+        </tr>
+
+        <tr>
+            <td style="border:1px solid black"><img src="https://upload-os-bbs.hoyolab.com/upload/2022/05/29/1024375/b82361b682855a6020d6d66b6da1fc46_2876885162617178589.png?x-oss-process=image%2Fresize%2Cs_1000%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp%2Fquality%2Cq_80"
+                height="120"></td>
+            <td style="border:1px solid black">Destruction</td>
+            <td style="border:1px solid black">Sacrifice HP for more damage at a <br> flexible role of AOE and single target damage</td>
+            <td style="border:1px solid black">6</td>
+            <td style="border:1px solid black">Yes</td>
+        </tr>
+
+        <tr>
+            <td style="border:1px solid black"><img src="https://static.wikia.nocookie.net/houkai-star-rail/images/7/7e/Path_Harmony.png"
+                height="120"></td>
+            <td style="border:1px solid black">Harmony</td>
+            <td style="border:1px solid black">Buff teammates to boost their stats</td>
+            <td style="border:1px solid black">6</td>
+            <td style="border:1px solid black">Yes</td>
+        </tr>
+
+        <tr>
+            <td style="border:1px solid black"><img src="https://www.nautiljon.com/images/description/00/23/1682627136919_image.webp"
+                height="120"></td>
+            <td style="border:1px solid black">Preservation</td>
+            <td style="border:1px solid black">Specialize in shielding or reducing damage taken to team</td>
+            <td style="border:1px solid black">3</td>
+            <td style="border:1px solid black">No</td>
+        </tr>
+
+    </table>
+
+
+
+    ALTERNATE CODE
+
+
+
+
+
+    <div class="gallery">
+        <a target="_blank" href="img_5terre.jpg">
+          <img src="img_5terre.jpg" alt="Cinque Terre" width="600" height="400">
+        </a>
+        <div class="desc">Add a description of the image here. Do this gallery in the shopping section as well</div>
+      </div>
+      
+      <div class="gallery">
+        <a target="_blank" href="img_forest.jpg">
+          <img src="img_forest.jpg" alt="Forest" width="600" height="400">
+        </a>
+        <div class="desc">Add a description of the image here</div>
+      </div>
+      
+      <div class="gallery">
+        <a target="_blank" href="img_lights.jpg">
+          <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
+        </a>
+        <div class="desc">Add a description of the image here</div>
+      </div>
+      
+      <div class="gallery">
+        <a target="_blank" href="img_mountains.jpg">
+          <img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
+        </a>
+        <div class="desc">Add a description of the image here</div>
+      </div>
+</body>
+</html>

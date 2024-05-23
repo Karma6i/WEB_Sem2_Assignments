@@ -1,0 +1,17 @@
+table{
+    border: 5px solid;
+    border-color:rgb(255, 99, 99);
+    text-align:center;
+    vertical-align: center;
+  }
+  td:hover{
+      background-color: rgb(255, 117, 117);
+  }
+  
+  tr:nth-child(even){
+      background-color: #caa2ff
+  }
+
+  img{
+      width:150px;
+  }
